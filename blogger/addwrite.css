@@ -1,0 +1,19 @@
+#exampleFormControlTextarea1{
+    background-color: antiquewhite;
+}
+@media screen and (min-width: 478px){
+    #baslik{
+        width: auto;
+    }
+    #kayit{
+        width: auto;
+    }
+}
+@media screen and (max-width: 477px){
+    #baslik{
+        width: 100%;
+    }
+    #kayit{
+        width: 100%;
+    }
+}

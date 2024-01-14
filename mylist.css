@@ -1,0 +1,44 @@
+@media screen and (min-width: 478px){
+    .mainbox{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 477px){
+    .mainbox{
+        width: 100%;
+    }
+}
+
+.myword{
+    border: 2px dotted;
+    margin-right: 0;
+    margin: 10px;
+    padding: 0 12px;
+}
+.myword label{
+    font-size: large;
+    font-weight: bolder;
+}
+.myword button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-right: -12px;
+}
+.myword label:hover{
+    cursor: pointer;
+}
+.btn-group{
+    margin-left: 10px;
+}
+#div1, #div2{
+    display: none;
+    margin: auto;
+}
